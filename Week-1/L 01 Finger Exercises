@@ -1,0 +1,306 @@
+Exercise 1
+
+(4/4 points)
+ESTIMATED TIME TO COMPLETE: 4 minutes
+Note that you will have to answer all questions before you can click the Check button.
+
+1. What is the difference between an Algorithm and a Program?
+An algorithm is a conceptual idea, a program is a concrete instantiation of an algorithm. - This answer is correct.
+
+2. True or False? A computational mode of thinking means that everything can be viewed as a math problem
+involving numbers and formulas.
+True - This answer is correct.
+
+3. True or False? Computer Science is the study of how to build efficient machines that run programs.
+False - This answer is correct.
+
+4. The two things every computer can do are:
+Perform calculations - This answer is correct.
+Remember the results - This answer is correct.
+
+Exercise 2
+
+(3/3 points)
+ESTIMATED TIME TO COMPLETE: 3 minutes
+Note that you will have to answer all questions before you can click the Check button.
+
+True or False? 
+
+1. Declarative knowledge refers to statements of fact.
+True - This answer is correct.
+
+2. Imperative knowledge refers to 'how to' methods.
+True - This answer is correct.
+
+3. A recipe for deducing the square root involves guessing a starting value for y. Without another recipe to be
+told how to pick a starting number, the computer cannot generate one on its own.
+True - This answer is correct.
+
+Exercise 3
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 5 minutes 
+Note that you will have to answer all questions before you can click the Check button.
+
+1. True or False? A stored program computer is designed to compute precisely one computation, such as a 
+square root, or the trajectory of a missile.
+False - This answer is correct.
+
+2. True or False? A fixed program computer is designed to run any computation, by interpreting a sequence 
+of program instructions that are read into it.
+False - This answer is correct.
+
+3. A program counter
+points the computer to the next instruction to execute in the program. - This answer is correct.
+
+4. What does it mean when we say that "the computer walks through the sequence executing some computation"?
+
+The computer executes the instructions mostly in a linear sequence, except sometimes it jumps to a different
+place in the sequence. - This answer is correct.
+
+True or False? In order to compute everything that is computable, every computer must be able to handle the 
+sixteen most primitive operations.
+False - This answer is correct.
+
+Exercise 4
+
+(3/3 points)
+ESTIMATED TIME TO COMPLETE: 2 minutes
+Note that you will have to answer all questions before you can click the Check button.
+
+Choose the term described by each of the following definitions.
+
+Definitions:
+
+1. Determines whether a string is legal
+Syntax - This answer is correct.
+
+2. Determines whether a string has meaning
+Static Semantics - This answer is correct.
+
+3. Assigns a meaning to a legal sentence
+Semantics - This answer is correct.
+
+Exercise 5
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 3 minutes
+Note that you will have to answer all questions before you can click the Check button.
+
+For each of the following expressions, indicate the type of the expression. While you could simply type these expressions
+into your shell, we encourage you to answer them directly since this will help reinforce your understanding of basic
+Python expressions.
+
+Note: The Python 'None' keyword
+1. 3.14
+float - This answer is correct.
+
+2. -34
+int - This answer is correct.
+
+3. True
+bool - This answer is correct.
+
+4. None
+NoneType - This answer is correct.
+ 
+5. 3.0
+float - This answer is correct.
+
+Exercise 6
+
+(10/10 points)
+ESTIMATED TIME TO COMPLETE: 5 minutes
+Note that you will have to answer all questions before you can click the Check button.
+
+For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error,
+write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions
+into an IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic
+Python expressions.
+
+For decimal answers, give the full result, or at least four decimal places of accuracy (whichever is shortest).
+
+Floating point errors: Decimal numbers cannot be stored exactly in the computer because the computer does not have
+an infiite amount of memory. So decimal numbers are rounded when stored. When you do calculations with these numbers,
+your final result will be different than the actual result. For exmaple, you may get something like 5.0000000044 instead
+of 5.0. This is called floating-point rounding error.
+
+1. 6 + 12 -3
+15 - This answer is correct
+
+2. 2 * 3.0
+6.0 - This answer is correct
+
+3. - - 4
+4 - This answer is correct
+
+4. 10/3
+3.3333 - This answer is correct
+
+5. 10.0/3.0
+3.3333 - This answer is correct
+
+6. (2 + 3) * 4
+20 - This answer is correct
+
+7. 2 + 3 * 4
+14 - This answer is correct
+
+8. 2**3 + 1
+9 - This answer is correct
+
+9. 2.1 ** 2.0
+4.41 - This answer is correct
+
+10. 2.2 * 3.0
+6.6000 - This answer is correct
+
+Exercise 7
+
+(6/6 points)
+ESTIMATED TIME TO COMPLETE: 3 minutes
+Note that you will have to answer all questions before you can click the Check button.
+
+Below is a transcript of a session with the Python shell. For each expression being evaluated, provide the type
+and the value the expression returns. If evaluating an expression would cause an error, select 'NoneType' and write
+the word 'error' (note this is a word, not a string, no quotes) in the box. While you could simply type these expressions
+into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic 
+Python expressions.
+
+Assume that the expressions are evaluated in the order shown - that is, each problem part is evaluated directly after the
+previous problem part(s).
+
+>>> a = 3
+>>> a + 2.0 
+float - This answer is correct
+5.0 - This answer is correct
+ 
+>>> a = a + 1.0
+>>> a 
+float - This answer is correct 
+4.0 - This answer is correct
+
+>>> a = 3
+>>> b
+NoneType - This answer is correct
+error - This answer is correct
+
+Exercise 8
+
+(12/12 points)
+ESTIMATED TIME TO COMPLETE: 6 minutes
+Note that you will have to answer all questions before you can click the Check button.
+
+For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write
+the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into your
+IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.
+
+Hint: Python boolean types
+Hint: Priority order of Boolean operations
+
+1. 3 > 4
+False - This answer is correct.
+
+2. 4.0 > 3.999
+True - This answer is correct.
+
+3. 4 > 4
+False - This answer is correct.
+
+4. 4 > + 4
+False - This answer is correct.
+
+5. 2 + 2 == 4
+True - This answer is correct.
+
+6. True or False
+True - This answer is correct.
+
+7. False or False
+False - This answer is correct.
+
+8. not False
+True - This answer is correct.
+
+9. 3.0 - 1.0 != 5.0 - 3.0
+False - This answer is correct.
+ 
+10. 3 > 4 or (2 < 3 and 9 > 10)
+False - This answer is correct.
+
+11. 4 > 5 or 3 < 4 and 9 > 8
+True - This answer is correct.
+
+12. not(4 > 3 and 100 > 6)
+False - This answer is correct.
+
+Exercise 9
+
+(4/4 points)
+ESTIMATED TIME TO COMPLETE: 3 minutes
+Note that you will have to answer all questions before you can click the Check button.
+
+Below is a transcript of a session with the Python shell. For each expression being evaluated, provide the type and the
+value the expression returns. If evaluating an expression would cause an error, select 'NoneType' and write the word 'error'
+(note this is a word, not a string, no quotes) in the box. While you could simply type these expressions into your IDE, we
+encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.
+
+Assume that the expressions are evaluated in the order shown - that is, each problem part is evaluated directly after the
+previous problem part(s).
+
+>>> a = 3
+>>> a == 5.0
+>>> a 
+int - This answer is correct.
+3 - This answer is correct.
+
+>>> b = 10
+>>> c = b > 9
+>>> c 
+bool - This answer is correct.
+True - This answer is correct.
+
+Exercise 10
+
+(16/16 points)
+ESTIMATED TIME TO COMPLETE: 5 minutes
+Note that you will have to answer all questions before you can click the Check button.
+
+For each of the following expressions, indicate the type of the expression and the value returned, or, if the evaluation
+would lead to an error, choose the type 'NoneType' and write the word 'error' (note this is a word, not a string, no quotes)
+as the value returned.
+
+While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help
+reinforce your understanding of basic Python expressions.
+
+1. 3 + 5.0
+float - This answer is correct.
+8.0 - This answer is correct.
+
+2. 5/2
+float - This answer is correct.
+2.5 - This answer is correct.
+
+3. 5/2 == 5/2.0
+bool - This answer is correct.
+True - This answer is correct.
+
+4. 5/2.0
+float - This answer is correct.
+2.5 - This answer is correct.
+
+5. round(2.6)
+int - This answer is correct.
+3 - This answer is correct.
+
+6. int(2.6)
+int - This answer is correct.
+2 - This answer is correct.
+
+7. 2.0 + 5.0
+float - This answer is correct.
+7.0 - This answer is correct.
+
+8. 5*2 == 5.0 * 2.0
+bool - This answer is correct.
+True - This answer is correct.
