@@ -1,0 +1,22 @@
+class PlaintextMessage(Message):
+    def __init__(self, text, shift):
+        self.message_text = text
+        self.valid_words = load_words(WORDLIST_FILENAME)
+        self.shift = shift
+        self.encrypting_dict = Message.build_shift_dict(self, shift)
+        self.message_text_encrypted = Message.apply_shift(self, shift)
+
+
+    def get_shift(self):
+        return self.shift
+
+    def get_encrypting_dict(self):
+        return self.encrypting_dict.copy()
+
+    def get_message_text_encrypted(self):
+        return self.message_text_encrypted
+
+    def change_shift(self, shift):
+        self.shift = shift
+        self.encrypting_dict = Message.build_shift_dict(self, shift)
+        self.message_text_encrypted = Message.apply_shift(self, shift)
