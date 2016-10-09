@@ -1,0 +1,685 @@
+Exercise 1
+
+(7/7 points)
+ESTIMATED TIME TO COMPLETE: 5 minutes
+Note that you will have to answer all questions before you can click the Check button.
+
+For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.
+
+Note: Advanced String Slicing
+
+1. "a" + "bc"
+'abc' - This answer is correct.
+
+2. 3 * "bc"
+'bcbcbc' - This answer is correct.
+
+3. "3" * "bc"
+error - This answer is correct.
+
+4. "abcd"[2]
+'c' - This answer is correct.
+
+5. "abcd"[0:2]
+'ab' - This answer is correct.
+
+6. "abcd"[:2]
+'ab' - This answer is correct.
+
+7. "abcd"[2:]
+'cd' - This answer is correct.
+
+Exercise 2
+
+(40/40 points)
+ESTIMATED TIME TO COMPLETE: 7 minutes
+Note that you will have to answer all questions before you can click the Check button.
+
+For each of the expressions below, specify its type and value. If it generates an error, select type 'NoneType' and write
+the word 'error' (note this is a word, not a string, no quotes) in the box for the value. While you could simply type these
+expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understand of basic
+Python expressions.
+
+Assume we've made the following assignments:
+
+>>> str1 = 'hello'
+>>> str2 = ','
+>>> str3 = 'world'
+
+Note: The Python 'in' operator
+
+1. str1
+string - This answer is correct.
+'hello' - This answer is correct.
+
+2. str1[0]
+string - This answer is correct.
+'h' - This answer is correct.
+
+3. str1[1]
+string - This answer is correct.
+'e' - This answer is correct.
+
+4. str1[-1]
+string - This answer is correct.
+'o' - This answer is correct.
+ 
+5. len(str1)
+int - This answer is correct.
+5 - This answer is correct.
+
+6. str1[len(str1)]
+NoneType - This answer is correct.
+error - This answer is correct.
+
+7. str1 + str2 + str3
+string - This answer is correct.
+'hello,world' - This answer is correct.
+
+8. str1 + str2 + ' ' + str3
+string - This answer is correct.
+'hello, world' - This answer is correct.
+
+9. str3 * 3
+string - This answer is correct.
+'worldworldworld' - This answer is correct.
+
+10. 'hello' == str1
+boolean - This answer is correct.
+True - This answer is correct.
+
+11. 'HELLO' == str1
+boolean - This answer is correct.
+False - This answer is correct.
+
+12. 'a' in str3
+boolean - This answer is correct. 
+False - This answer is correct.
+
+13. str4 = str1 + str3
+    'low' in str4
+boolean - This answer is correct.
+True - This answer is correct.
+
+14. str3[1:3]
+string - This answer is correct.
+'or' - This answer is correct.
+
+15. str3[:3]
+string - This answer is correct.
+'wor' - This answer is correct.
+
+16. str3[:-1]
+string - This answer is correct.
+'worl' - This answer is correct.
+
+17. str1[1:]
+string - This answer is correct.
+'ello' - This answer is correct.
+
+18. str4[1:9]
+string - This answer is correct.
+'elloworl' - This answer is correct.
+
+19. str4[1:9:2]
+string - This answer is correct.
+'elwr' - This answer is correct.
+
+20. str4[::-1]
+string - This answer is correct.
+'dlrowolleh' - This answer is correct.
+
+Exercise 3
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 5 minutes
+
+For each of the following expressions, indicate the value that prints out when the expression is evaluated. If the evaluation
+would lead to an error, write the word 'error'; if nothing would print out, write the word 'blank'.
+
+While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help
+reinforce your understanding of basic Python expressions.
+
+If the temperatures seem weird to you, like most of the world, you probably use the Celsius system. We Americans still use the
+crazy Fahrenheit system...
+
+1. if 6 > 7:
+      print("Yep")
+
+blank - This answer is correct.
+
+2. if 6 > 7:
+      print("Yep")
+   else:
+      print("Nope")
+
+'Nope' - This answer is correct.
+
+3. var = 'Panda'
+   if var == "panda":
+      print("Cute!")
+   elif var == "Panda":
+      print("Regal!")
+   else:
+      print("Ugly...")
+
+'Regal!' - This answer is correct.
+
+4. temp = 120
+   if temp > 85:
+      print("Hot")
+   elif temp > 100:
+      print("REALLY HOT!")
+   elif temp > 60:
+      print("Comfortable") 
+   else:
+      print("Cold")
+
+'Hot' - This answer is correct.
+
+5. temp = 50
+   if temp > 85:
+      print("Hot")
+   elif temp > 100:
+      print("REALLY HOT!")
+   elif temp > 60:
+      print("Comfortable")
+   else:
+      print("Cold")
+
+'Cold' - This answer is correct.
+
+Exercise: hello world
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 2 minutes
+
+Write a piece of Python code that prints out the string hello world
+
+>>> str="hello world"
+>>> print(str)
+Correct
+
+Exercise: happy
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 3 minutes
+
+Write a piece of Python code that prints out the string 'hello world' if the value of an integer variable, happy, is strictly
+greater than 2.
+
+Note: Do not ask for user input
+
+>>> if happy >2:
+>>> print("hello world")
+Correct
+
+
+Exercise: vara varb
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 5 minutes
+
+Assume that two variables, varA and varB, are assigned values, either numbers or strings.
+
+Write a piece of Python code that prints out one of the following messages:
+
+- "string involved" if either varA or varB are strings
+- "bigger" if varA is larger than varB
+- "equal" if varA is equal to varB
+- "smaller" if varA is smaller than varB
+
+Do not ask for user input
+
+>>> if type(varA) == str or type(varB) == str:
+>>>	    print("string involved")
+>>> 	
+>>> elif varA > varB:
+>>> 	  print("bigger")
+>>> 
+>>> elif varA == varB:
+>>> 	  print("equal")
+>>> 
+>>> else:
+>>> 	  print("smaller")
+correct
+
+Exercise 4
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 8 minutes
+
+Below are some short Python programs. For each program, answer the associated question.
+
+Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.
+
+This question is going to ask you what some simple loops print out. If you're asked what code like this prints:
+
+>>> num = 5
+>>> if num > 2:
+>>>     print(num)
+>>>     num -= 1
+>>> print(num)
+
+write what it prints out, separating what appears on a new line by a comma and a space. So the answer for the above
+code would be:
+
+>>> 5, 4
+
+If a given loop will not terminate, write the phrase 'infinite loop' (no quotes) in the box. Recall that you can stop an
+infinite loop in your program by typing CTRL+c in the console.
+
+Note: What does +=, -=, *=, /= stand for?
+
+1. 
+>>> num = 0
+>>> while num <= 5:
+>>>     print(num)
+>>>     num += 1
+>>> 
+>>> print("Outside of loop")
+>>> print(num) 
+
+0, 1 ,2, 3, 4, 5, Outside of loop, 6 - This answer is correct.
+
+2.
+>>> numberOfLoops = 0
+>>> numberOfApples = 2
+>>> while numberOfLoops < 10:
+>>>     numberOfApples *= 2
+>>>     numberOfApples += numberOfLoops
+>>>     numberOfLoops -= 1
+>>> print("Number of apples: " + str(numberOfApples))
+
+infinite loop - This answer is correct.
+
+3.
+>>> num = 10
+>>> while num > 3:
+>>>     num -= 1
+>>>     print(num) 
+
+9, 8, 7, 6, 5, 4, 3 - This answer is correct.
+
+4.
+>>> num = 10
+>>> while True:
+>>>     if num < 7:
+>>>         print('Breaking out of loop')
+>>>         break
+>>>     print(num)
+>>>     num -= 1
+>>> print('Outside of loop')
+Note: If the command break is executed within a loop, it halts evaluation of the loop at that point and passes control
+to the next expression. Test some break statements inside different loops if you don't understand this concept!
+
+10, 9, 8, 7, Breaking out of loop, Outside of loop - This answer is correct.
+
+5. 
+>>> num = 100
+>>> while not False:
+>>>     if num < 0:
+>>>         break
+>>> print('num is: ' + str(num)) 
+
+infinite loop - This answer is correct.
+
+Exercise: while exercise 1
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 5 minutes
+
+In this problem you'll be given a chance to practice writing some while loops.
+
+1. Convert the following into code that uses a while loop.
+
+print 2
+prints 4
+prints 6
+prints 8
+prints 10
+prints Goodbye!
+
+>>> n = 0
+>>> while n <= 8: 
+>>>    n += 2 
+>>>    print(n)
+>>> print("Goodbye!")
+Correct
+
+Exercise: while exercise 2
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 5 minutes
+
+2. Convert the following into code that uses a while loop.
+
+prints Hello!
+prints 10
+prints 8
+prints 6
+prints 4
+prints 2
+
+>>> print("Hello!")
+>>> n = 12
+>>> while n >= 3: 
+>>>     n += -2 
+>>>     print(n)
+Correct
+
+Exercise: while exercise 3
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 5 minutes
+
+3. Write a while loop that sums the values 1 through end, inclusive. end is a variable that we define for you. So, for example,
+if we define end to be 6, your code should print out the result:
+
+21
+which is 1 + 2 + 3 + 4 + 5 + 6.
+
+For problems such as these, do not include input statements or define variables we will provide for you. Our automating testing
+will provide values so write your code in the following box assuming these variables are already defined.
+
+Hint: Don't Use A Variable Called 'sum'
+
+>>> to = 0
+>>> while end > 0:
+>>>      to += end
+>>>      end -= 1
+>>> print (to)
+Correct
+
+Exercise: for exercise 1
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 5 minutes
+
+In this problem you'll be given a chance to practice writing some for loops.
+
+1. Convert the following code into code that uses a for loop.
+
+prints 2
+prints 4
+prints 6
+prints 8
+prints 10
+prints "Goodbye!"
+
+>>> for x in range(2, 12, 2):
+>>>     print(x)
+>>> print("Goodbye!")
+Correct
+
+Exercise: for exercise 2
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 5 minutes
+
+2. Convert the following code into code that uses a for loop.
+
+prints "Hello!"
+prints 10
+prints 8
+prints 6
+prints 4
+prints 2
+
+>>> print("Hello!")
+>>> for x in range(10, 0, -2):
+>>>     print(x)
+Correct
+
+Exercise: for exercise 3
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 5 minutes
+
+3. Write a for loop that sums the values 1 through end, inclusive. end is a variable that we define for you. So, for example,
+if we define end to be 6, your code should print out the result:
+
+21
+which is 1 + 2 + 3 + 4 + 5 + 6.
+
+For problems such as these, do not include input statements or define variables we will provide for you. Our automating testing
+will provide values so write your code in the following box assuming these variables are already defined.
+
+Hint: Don't Use A Variable Called 'sum'
+
+total = 0
+current = 1
+
+>>> for num in range(end):
+>>>     total += current
+>>>     current += 1
+>>> print(total)
+Correct
+
+Exercise 5
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 7 minutes
+
+Below are some short Python programs. For each program, answer the associated question.
+
+Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.
+
+This question is going to ask you what some simple loops print out. If you're asked what code like this prints:
+
+num = 5
+if num > 2:
+    print(num)
+    num -= 1
+print(num)
+
+write what it prints out, separating what appears on a new line by a comma and a space. So the answer for the above code
+would be:
+
+5, 4
+
+If a given loop will not terminate, write the phrase 'infinite loop' in the box.
+
+Note: Using the 'range' built-in function
+
+num = 10
+for num in range(5):
+    print(num)
+print(num)
+
+0, 1, 2, 3, 4, 4 - This answer is correct.
+
+divisor = 2
+for num in range(0, 10, 2):
+    print(num/divisor) 
+
+0.0, 1.0, 2.0, 3.0, 4.0 - This answer is correct.
+
+for variable in range(20):
+    if variable % 4 == 0:
+        print(variable)
+    if variable % 16 == 0:
+        print('Foo!') 
+
+0, Foo!, 4, 8, 12, 16, Foo! - This answer is correct.
+
+for letter in 'hola':
+    print(letter)  
+
+h, o, l, a - This answer is correct.
+ 
+count = 0
+for letter in 'Snow!':
+    print('Letter # ' + str(count) + ' is ' + str(letter))
+    count += 1
+    break
+print(count)
+
+Letter # 0 is S, 1 - This answer is correct.
+
+Exercise 6
+
+(15/15 points)
+ESTIMATED TIME TO COMPLETE: 10 minutes
+
+Below are some short Python programs. For each program, answer the associated questions.
+
+Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.
+You'll learn the most this way, by figuring things out, instead of just running the code and reading off the answers.
+
+myStr = '6.00x'
+for char in myStr:
+    print(char)
+print('done')
+
+1. How many times does 6 print out?
+1 - This answer is correct.
+ 
+2. How many times does . print out?
+1 - This answer is correct.
+
+3. How many times does 0 print out?
+2 - This answer is correct.
+
+4. How many times does x print out?
+1 - This answer is correct.
+
+5. How many times does done print out?
+1 - This answer is correct.
+
+greeting = 'Hello!'
+count = 0
+for letter in greeting:
+    count += 1
+    if count % 2 == 0:
+        print(letter)
+    print(letter)
+print('done')
+
+1. How many times does H print out?
+1 - This answer is correct.
+
+2. How many times does e print out? Disregard the letters in the word done.
+2 - This answer is correct.
+
+3. How many times does l print out?
+3 - This answer is correct.
+
+4. How many times does o print out? Disregard the letters in the word done.
+1 - This answer is correct.
+
+5. How many times does ! print out?
+2 - This answer is correct.
+
+6. How many times does done print out?
+1 - This answer is correct.
+ 
+school = 'Massachusetts Institute of Technology'
+numVowels = 0
+numCons = 0
+for char in school:
+    if char == 'a' or char == 'e' or char == 'i' \
+       or char == 'o' or char == 'u':
+        numVowels += 1
+    elif char == 'o' or char == 'M':
+        print(char)
+    else:
+        numCons -= 1
+print('numVowels is: ' + str(numVowels))
+print('numCons is: ' + str(numCons)) 
+
+1. How many times does o print out? Disregard the o's in last two print statements.
+0 - This answer is correct.
+
+2. How many times does M print out?
+1 - This answer is correct.
+
+3. What will the value of the variable numVowels be?
+11 - This answer is correct.
+
+4. What will the value of the variable numCons be?
+-25 - This answer is correct.
+
+Exercise 7
+
+(5/5 points)
+ESTIMATED TIME TO COMPLETE: 10 minutes
+
+Here is some code:
+
+Code Sample
+
+iteration = 0
+count = 0
+while iteration < 5:
+    for letter in "hello, world":
+        count += 1
+    print("Iteration " + str(iteration) + "; count is: " + str(count))
+    iteration += 1 
+
+We wish to re-write the above code, but instead of nesting a for loop inside a while loop, we want to nest a while loop inside
+a for loop. Which of the following loops gives the same output as the Code Sample?
+
+Try to answer the following questions by just reading the code. Reading code is a very good skill to have (and will help you both
+in your programming career and on your exams!). It is okay to check your answers that you obtain from just reading the code, then
+in your interpreter run the code for the ones you got wrong on your first attempt.
+
+Test 1
+
+for iteration in range(5):
+    count = 0
+    while True:
+        for letter in "hello, world":
+            count += 1
+        print("Iteration " + str(iteration) + "; count is: " + str(count))
+
+No, Test 1 does not give the same output as the Code Sample - This answer is correct.
+
+Test 2
+
+for iteration in range(5):
+    count = 0
+    while True:
+        for letter in "hello, world":
+            count += 1
+        print("Iteration " + str(iteration) + "; count is: " + str(count))
+        break
+
+No, Test 2 does not give the same output as the Code Sample - This answer is correct.
+
+Test 3
+
+count = 0
+phrase = "hello, world"
+for iteration in range(5):
+    index = 0
+    while index < len(phrase):
+        count += 1
+        index += 1
+    print("Iteration " + str(iteration) + "; count is: " + str(count))
+
+Yes, Test 3 gives the same output as the Code Sample - This answer is correct.
+
+Test 4
+
+count = 0
+phrase = "hello, world"
+for iteration in range(5):
+    while True:
+        count += len(phrase)
+        break
+    print("Iteration " + str(iteration) + "; count is: " + str(count))
+
+Yes, Test 4 gives the same output as the Code Sample - This answer is correct.
+
+Test 5
+
+count = 0
+phrase = "hello, world"
+for iteration in range(5):
+    count += len(phrase)
+    print("Iteration " + str(iteration) + "; count is: " + str(count))
+
+Yes, Test 5 gives the same output as the Code Sample - This answer is correct.
+
+
