@@ -1,0 +1,10 @@
+totalPaid = 0;
+
+for i in range(1,13):
+    
+    totalPaid += monthlyPaymentRate*balance;
+    balance = balance + (annualInterestRate/12.0)*balance;
+    balance = balance - (monthlyPaymentRate*balance);
+   
+    
+print("Remaining balance: " + str(round(balance,2)));
