@@ -1,0 +1,23 @@
+class CiphertextMessage(Message):
+    def __init__(self, text):
+        self.message_text = text
+        self.valid_words = load_words(WORDLIST_FILENAME)
+
+    def decrypt_message(self):
+        best_shift = ()
+        highest_word_count = 0
+         
+        for s in range(26):
+            word_count = 0
+            decrypted_str = self.apply_shift(s)
+            str_list = decrypted_str.split(' ')
+             
+            for item in str_list:
+                if is_word(self.valid_words, item):
+                    word_count += 1
+                     
+            if word_count > highest_word_count:
+                highest_word_count = word_count
+                best_shift = (s, decrypted_str)
+         
+        return best_shift
